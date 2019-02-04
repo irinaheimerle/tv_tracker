@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Roboto');
+
+$themeColorDark: #5C573E;
+$themeColorMid:#A5B452;
+$themeColorMidGreen:#C8D96F;
+$themeColorPurple:#9BA7C0;
+
+.confirmation {
+    display:flex;
+    flex-direction: column;    
+    //justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.data {
+    display:flex;
+    flex-direction: column;    
+    //justify-content: center;
+    align-items: center;
+
+    &__table {
+        font-family: 'Roboto', sans-serif;
+
+        &--head {
+            padding: 10px;
+        }
+    }
+}
+
+
+
+.titles {
+    h2 {
+        font-family: 'Major Mono Display', monospace;
+        font-size: 50px;
+        color: $themeColorMid;
+    } 
+  
+    p {
+        font-family: 'Roboto', sans-serif;
+        color: $themeColorMidGreen;
+        padding-bottom: 20px;
+    }
+}
+
+.tv {
+    //font-size: 40px;
+    display:flex;
+    flex-direction: column;    
+    //justify-content: center;
+    align-items: center;
+    
+    &__form {
+        //margin-left: -135px;
+        font-family: 'Roboto', sans-serif;
+        
+        &--input {
+            margin-bottom: 20px;
+        }
+
+        &--note{
+            font-size: 12px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

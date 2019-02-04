@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Major+Mono+Display|Roboto);.confirmation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif; }
+
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .data__table {
+    font-family: 'Roboto', sans-serif; }
+    .data__table--head {
+      padding: 10px; }
+
+.titles h2 {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 50px;
+  color: #A5B452; }
+
+.titles p {
+  font-family: 'Roboto', sans-serif;
+  color: #C8D96F;
+  padding-bottom: 20px; }
+
+.tv {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .tv__form {
+    font-family: 'Roboto', sans-serif; }
+    .tv__form--input {
+      margin-bottom: 20px; }
+    .tv__form--note {
+      font-size: 12px; }
